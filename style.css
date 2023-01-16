@@ -1,0 +1,625 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background: #0a0a0a;
+	background-image: url(slike/kafanaaa.png);
+	background-repeat: no-repeat;
+	font-family: Georgia;
+  background-attachment: fixed;
+/*  font-family: Arial;*/
+/*	font-family: 'Libre Baskerville', serif;*/
+
+}
+
+.menu-bar {
+	background: #fdca01;
+	text-align: center;
+	margin-top: 100px;
+
+}             
+
+.menu-bar ul {
+	display: inline-flex;
+	list-style: none;
+	color: #fdca01;
+}
+
+/*ovo je sirina pocetne pivo zestina*/
+.menu-bar ul li {
+	width: 130px;
+	margin: 15px;
+	padding: 15px;
+}
+
+.menu-bar ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.active, .menu-bar ul li:hover {
+	background: #ba9504;
+	border-radius: 3px;
+} 
+
+.menu-bar .fa {
+	margin-right: 8px;
+}
+
+.sub-menu-1 {
+	display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+	display: block;
+	position: absolute;
+	background-color: #ba9504;
+	margin-top: 15px;
+	margin-left: -15px;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+	display: block;
+	margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	border-radius: 0;
+	text-align: center;
+
+}
+
+.tocena {
+	background-image: url(12/slike/srbijazastava.png);
+}
+.tocena {
+	background: #0a0a0a;
+	background-image: url(slike/pivo2.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Georgia;
+  /*font-family: Arial;
+	font-family: 'Libre Baskerville', serif;*/
+}
+
+.ceska {
+	background: #0a0a0a;
+	background-image: url(slike/ceskazastava.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Georgia;
+}
+
+.srbija {
+	background: #0a0a0a;
+	background-image: url(slike/srbijazastava.png);
+		background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Georgia;
+
+}
+.nemacka {
+	background: #0a0a0a;
+	background-image: url(slike/nemackazastava.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Georgia;
+}
+
+.belgija {
+	background: #0a0a0a;
+	background-image: url(slike/belgijazastava.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Georgia;
+}
+.engleska {
+	background: #0a0a0a;
+	background-image: url(slike/engleskazastava.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Georgia;
+}
+.grcka {
+	background: #0a0a0a;
+	background-image: url(slike/grckazastava.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Georgia;
+}
+.zestina1 {
+	background: #0a0a0a;
+	background-image: url(slike/zestina.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Georgia;
+}
+.ostalo {
+	background: #0a0a0a;
+	background-image: url(slike/kafe.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Georgia;
+}
+
+
+/* .logo i img su zuti logo nA POCETNOJ */
+.logo {
+	display: flex;
+	justify-content: left;
+}
+
+
+
+img {
+	width: 150px;
+	height: 150px;
+}
+
+.naslov img {
+  float: left;
+  width: 150px;
+  height: 150px;
+  background:;
+}
+
+/*ovo je PIVOLOGIJA BEER SHOP AND BAR*/
+.naslov h1 span {
+  position: relative;
+  top: 37px;
+  left: 10px;
+  font-size: 60px;
+  color: black;
+  background-color: #fdca01;
+  margin-top: 50px;
+	margin-right: 0px;
+	margin-bottom: 250px;
+	margin-left: 20px;
+
+}
+
+/*ovo p predstavlja sve paragrafe koji su na ostalim stranicama/cenovnici*/
+p {
+	color: white;
+}
+
+
+
+/*tekst na pocetnoj stranici*/
+.uvod  span{
+	background: black;
+	color: white;
+	font-size: 16px;
+	margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 70px;
+  margin-left: 70px;
+	padding: 2px;
+	display: block;
+
+	/*background: black;
+	color: white;
+	padding: 2px;
+	font-size: 16px;
+	margin: 50px 150px 50px 150;
+	line-height: 24px;*/
+
+}
+
+
+.tekst1 span {
+	background: black;
+	color: white;
+	padding: 5px;
+	font-size: 16px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	margin-left: 60px;
+	display: inline-block;
+	
+}
+.cena span {
+	background: black;
+	color: white;
+	font-size: 16px;
+/*	display: flex;
+	 justify-content: space-between;
+	 margin-left: 70px;
+	 margin-right: 70px;*/
+	margin-top: 70px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 70px;
+	padding: 2px;
+}
+
+
+
+
+.imepodkategorije span{
+	position: relative;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  margin-top: 50px;
+	margin-right: 800px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+
+}
+
+.map{
+position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #CCC;
+    margin-top: 500px;
+    }
+
+#map-container {
+    height: 100%;
+    width: 100%;
+    }
+
+/*ovo je kontakt adresa i ostalo*/
+.info1 {
+	position: relative;
+	color: black;
+/*	background-color: #1b1b1b;*/
+	background-color: #ba9504;
+	padding: 5px 20px;
+	margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ODAVDE KRECE SVE ZA TELEFON*/
+
+@media all and (max-width: 600px)
+{
+
+	body {
+	background: #999;
+	background-image: url(slike/kafanaaa.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Georgia ;
+  /*font-family: Arial;
+	font-family: 'Libre Baskerville', serif;*/
+}
+
+/*logo slika	*/
+.naslov img {
+  float: left;
+  width: 60px;
+  height: 60px;
+  }
+
+/*pivologija beer sahop*/
+.naslov h1 span {
+  position: relative;
+  top: 12px;
+  left: -15px;
+  font-size: 20px;
+  color: black;
+  background-color: #fdca01;
+  padding: 7px 2px;
+  }
+
+
+/*MENU BAR */
+.menu-bar {
+	background: #fdca01;
+	text-align: float;
+	margin-top: 40px;
+	font-size: 10px;
+	height: 65px;
+
+}             
+
+.menu-bar ul {
+	display: inline-flex;
+	list-style: none;
+	color: #fdca01;
+
+}
+
+/*ovo je sirina pocetne pivo zestina*/
+.menu-bar ul li {
+	width: 62px;
+	margin:  auto;
+	padding: auto;
+
+}
+
+.menu-bar ul li a {
+	text-decoration: none;
+	color: black;
+	size: 20px;
+}
+
+.active, .menu-bar ul li:hover {
+	background: #ba9504;
+	border-radius: 3px;
+	position: right;
+	padding: 2px;
+} 
+
+.menu-bar .fa {
+	margin-right: 1px;
+}
+
+.sub-menu-1 {
+	display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+	display: block;
+	position: absolute;
+	background-color: #ba9504;
+	margin-top: 15px;
+	margin-left: -15px;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+	display: block;
+	margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	border-radius: 0;
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+.tocena {
+	background: #0a0a0a;
+	background-image: url(slike/pivo2.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  font-family: Arial;
+	font-family: 'Libre Baskerville', serif;
+		background-size: auto;
+
+}
+
+.ceska {
+	background: #0a0a0a;
+	background-image: url(slike/ceskazastava.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  font-family: Arial;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.srbija {
+	background: #0a0a0a;
+	background-image: url(slike/srbijazastava.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  font-family: Arial;
+	font-family: 'Libre Baskerville', serif;
+		background-size: auto;
+
+  font-family: Arial;
+	font-family: 'Libre Baskerville', serif;
+
+}
+.nemacka {
+	background: #0a0a0a;
+	background-image: url(slike/nemackazastava.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  font-family: Arial;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.belgija {
+	background: #0a0a0a;
+	background-image: url(slike/belgijazastava.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  font-family: Arial;
+	font-family: 'Libre Baskerville', serif;
+}
+.engleska {
+	background: #0a0a0a;
+	background-image: url(slike/engleskazastava.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  font-family: Arial;
+	font-family: 'Libre Baskerville', serif;
+}
+.grcka {
+	background: #0a0a0a;
+	background-image: url(slike/grckazastava.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  font-family: Arial;
+	font-family: 'Libre Baskerville', serif;
+}
+.zestina1 {
+	background: #0a0a0a;
+	background-image: url(slike/zestina.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  font-family: Arial;
+	font-family: 'Libre Baskerville', serif;
+}
+.ostalo {
+	background: #0a0a0a;
+	background-image: url(slike/kafe.png);
+	background-size: auto;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  font-family: Arial;
+	font-family: 'Libre Baskerville', serif;
+}
+
+
+
+
+
+
+
+
+/*tekst na pocetnoj stranici*/
+.uvod  span{
+	background: black;
+	color: white;
+	font-size: 16px;
+	margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+	padding: 2px;
+	display: block;
+}
+
+
+
+.map{
+position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #CCC;
+    margin-top: 150px;
+    }
+
+#map-container {
+    height: 100%;
+    width: 100%;
+    }
+
+/*ovo je kontakt adresa i ostalo*/
+.info1 {
+	position: relative;
+	color: ghostwhite;
+	background-color: black;
+	padding: 5px 20px;
+	margin-top: 10px;
+	font-size: 12px;
+
+}
+
+.down {
+	margin-top: 300px;
+}
+
+.tekst1 span {
+	background: black;
+	color: white;
+	padding: 2px;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	display: inline-block;
+	
+}
+.cena span {
+	background: black;
+	color: white;
+	font-size: 12px;
+	margin-top: 70px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	padding: 2px;
+	text-align: center;
+}
+
+.imepodkategorije span{
+	position: relative;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  margin-top: 30px;
+	margin-right: 800px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
